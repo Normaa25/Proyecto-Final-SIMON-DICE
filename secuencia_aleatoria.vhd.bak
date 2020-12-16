@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity secuencia_aleatoria is
+		port (
+		clk : in std_logic;
+		 reset : in std_logic;
+		random : out std_logic_vector(4 downto 0)
+		);
+end entity secuencia_aleatoria;
